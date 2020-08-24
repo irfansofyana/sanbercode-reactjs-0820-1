@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Irfan Sofyana Putra
+2. Email: irfansofyana0305@gmail.com
+3. Sistem Operasi yang digunakan: Windows, WSL
+4. Akun Github: irfansofyana
+5. Akun Telegram: @irfansofyana
