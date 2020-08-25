@@ -1,3 +1,13 @@
 table {
     margin-bottom: 30px;
 }
+
+td {
+    width: 10px;
+    padding-bottom: 10px;
+}
+
+.back-to-index {
+    position: fixed;
+    bottom: 10px;
+}
