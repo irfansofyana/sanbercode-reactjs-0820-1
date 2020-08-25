@@ -5,7 +5,7 @@ header {
     top: 0;
 }
 
-#index-body {
+body {
     margin: 0;
     width: 100%;
     background-image: url('../img/pattern.jpg')
@@ -70,7 +70,20 @@ footer {
     padding-left: 10px;
 }
 
+.contact-us {
+    margin-left: 10px;
+}
+
+.about-data {
+    padding-bottom: 10px;
+}
+
+table {
+    margin-left: 10px;
+}
+
 .back-to-index {
     position: fixed;
     bottom: 10px;
+    margin-left: 10px;
 }
