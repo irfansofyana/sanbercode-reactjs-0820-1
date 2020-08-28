@@ -72,3 +72,15 @@ console.log(data[0]);
 // Soal 6
 var dataFilm = [];
 
+function addElementDataFilm(dataFilm, nama, durasi, genre, tahun) {
+    dataFilm.push({
+        nama: nama,
+        durasi: durasi,
+        genre: genre,
+        tahun: tahun
+    });
+
+    return dataFilm;
+}
+
+console.log(addElementDataFilm(dataFilm, "Doraemon", "60", "Kartun", "2020"));
