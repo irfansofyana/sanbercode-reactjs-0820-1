@@ -44,25 +44,25 @@ var data = [
     {
         nama: 'strawberry',
         warna: 'merah',
-        ada_bijinya: 'tidak',
+        ada_bijinya: false,
         harga: 9000
     },
     {
         nama: 'jeruk',
         warna: 'oranye',
-        ada_bijinya: 'ada',
+        ada_bijinya: true,
         harga: 8000
     },
     {
         nama: 'Semangka',
         warna: 'Hijau & merah',
-        ada_bijinya: 'ada',
+        ada_bijinya: true,
         harga: 10000
     },
     {
         nama: 'Pisang',
         warna: 'Kuning',
-        ada_bijinya: 'tidak',
+        ada_bijinya: false,
         harga: 5000
     }
 ];
@@ -83,4 +83,8 @@ function addElementDataFilm(dataFilm, nama, durasi, genre, tahun) {
     return dataFilm;
 }
 
-console.log(addElementDataFilm(dataFilm, "Doraemon", "60", "Kartun", "2020"));
+addElementDataFilm(dataFilm, "Doraemon", "60", "Kartun", "2018");
+addElementDataFilm(dataFilm, "Naruto", "120", "Kartun", "2019");
+addElementDataFilm(dataFilm, "One Piece", "180", "Kartun", "2020");
+
+console.log(dataFilm);
