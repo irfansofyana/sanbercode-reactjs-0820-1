@@ -3,25 +3,25 @@
 // Release 0
 class Animal {
     constructor (name) {
-        this.name = name;
-        this.legs = 4;
-        this.cold_blooded = false;
+        this._name = name;
+        this._legs = 4;
+        this._cold_blooded = false;
     }
 
-    get geName () {
-        return this.name;
+    get name () {
+        return this._name;
     }
 
-    set setName (name) {
-        this.name = name;
+    set name (name) {
+        this._name = name;
     }
 
-    get getLegs () {
-        return this.legs;
+    get legs () {
+        return this._legs;
     }
 
-    get getColdBlooded () {
-        return this.cold_blooded;
+    get cold_blooded () {
+        return this._cold_blooded;
     }
 }
 
@@ -45,7 +45,7 @@ class Frog extends Animal {
 class Ape extends Animal {
     constructor (name) {
         super(name);
-        this.legs = 2;
+        this._legs = 2;
     }
 
     yell () {
